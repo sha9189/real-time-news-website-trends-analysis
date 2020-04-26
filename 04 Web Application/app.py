@@ -36,10 +36,7 @@ How much percentage of the cover page is devoted to each category?
 
 Please enter which news website you would like to scrap and press the **Scrape** button.
 '''
-markdown_text3 = '''
-*(Please note that the results will take around a minute to load as the program accesses the webpage of all the headlines and we have used a crawl-delay to prevent overloading of the host server.   
-For quickest results, select India Today)*
-'''
+
 
 markdown_text2 = '''
 Websites scraped for each category:   
@@ -90,12 +87,6 @@ app.layout = html.Div([
                 [dcc.Markdown(markdown_text1,
                     style={
                         'font-size': '12px'
-                        , 'color': colors['text']
-                    }
-                ),
-                dcc.Markdown(markdown_text3,
-                    style={
-                        'font-size': '10px'
                         , 'color': colors['text']
                     }
                 )
@@ -343,7 +334,7 @@ def update_table(jsonified_df):
         },
         style_table={
             'maxHeight': '600px',
-            'height' : '492px',
+            'height' : '545px',#492 px
             #'overflowY': 'scroll',
             #'backgroundColor' : colors['blocks']
         },
@@ -358,11 +349,5 @@ def update_table(jsonified_df):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
-    df_articles = scrap_ht()
-    features = create_features_from_content(df_articles)
-    categories = predict_from_features(features)
-    df = complete_df(df_articles, categories)
-    print(df["Prediction"])
-    print("done")
-    print("done")
+    app.run_server(debug=True,dev_tools_ui=False, dev_tools_props_check=False)
+

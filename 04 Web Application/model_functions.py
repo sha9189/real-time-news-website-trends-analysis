@@ -340,7 +340,7 @@ def get_wordnet_pos(word):
     return tag_dict.get(tag, wordnet.NOUN)
 
 #Importing the tfidf object for creating features out of scrapped articles    
-folder_path = "D:/Projects/News Article classifier/Model Enhancement/Dataset Pickles//"
+folder_path = "D://Projects//News Article classifier//01 Dataset Creation//Pickles//"
 filename = "tfidf.pickle"
 with open(folder_path + filename, "rb") as file:
     tfidf = pickle.load(file)
