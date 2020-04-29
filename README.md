@@ -18,4 +18,4 @@ of articles posted in each category and the percentage of the webpage dedicated 
 Here is a snapshot of the application: 
 ![Application Screenshot](/Application%20Screenshot/Application%20Screenshot.png)
 
-For any suggestions, comments or anything else, you can find me at my [mail](shailesh1121998@gmail.com) or [LinkedIn](www.linkedin.com/in/shailesh-mahto).
+For any suggestions, comments or anything else, you can find me at my [Mail](shailesh1121998@gmail.com) or [LinkedIn](www.linkedin.com/in/shailesh-mahto).
