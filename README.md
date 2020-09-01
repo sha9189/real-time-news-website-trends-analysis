@@ -18,4 +18,4 @@ of articles posted in each category and the percentage of the webpage dedicated 
 Here is a snapshot of the application: 
 ![Application Screenshot](/Application%20Screenshot/Application%20Screenshot.png)
 
-For any suggestions, comments or anything else, you can find me at my [Mail](mailto:shailesh1121998@gmail.com?subject=[GitHub]%20News%20Article%20Classifier) or [LinkedIn](https://www.linkedin.com/in/shailesh-mahto).
+For any suggestions, comments or anything else, you can find me at my [Mail](mailto:shailesh.formal@gmail.com?subject=[GitHub]%20News%20Article%20Classifier) or [LinkedIn](https://www.linkedin.com/in/shailesh-mahto).
