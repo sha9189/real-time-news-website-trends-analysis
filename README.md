@@ -6,7 +6,7 @@ This is an end-to-end machine learning project. It involves the use of various s
 This app starts with a **dashboard** where you can select any one of these news websites - India Today, Hindustan Times, Economic Times and The Guardian.
 Once you select the option to **Scrape**, the application goes into the website and scraps out the title and links to all the articles. 
 
-Then, using the links, it vists all the individual article pages and scraps out the articles. These articles are passed through a machine learning model to predict the category of each 
+Then, using the links, it visits all the individual article pages and scraps out the articles. These articles are passed through a machine learning model to predict the category of each 
 article. I used these 5 categories for classification - **Business**, **Politics**, **Entertainment**, **Sports** and **Tech**. The articles not 
 belonging to any of these categories are labelled as Other. 
 
